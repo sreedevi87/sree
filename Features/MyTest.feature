@@ -11,13 +11,13 @@
  Then Verify Username text
  Then VerifyTextPresent
  Then selectframe
- Then clickView
+ #Then clickView
  Then exitframe
  Then PIM Main menu link
  Then selectingframe
  And Entering firstname and lastname
  Then verify logout
- 
+ Then teardown
  
  Scenario:Verfication of login button
  Given Open the chrome and launch the application

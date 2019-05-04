@@ -97,6 +97,22 @@ public class Steps {
     	driver.findElement(By.linkText("Logout")).click();
     	
     }
+    @Then("^teardown$")
+    public void tearDown() throws Exception{
+    	driver.close();
+    }
+    @Then("^selectingframe$")
+    public void selectingframe() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+       // throw new PendingException();
+    }
+
+    @Then("^Entering firstname and lastname$")
+    public void entering_firstname_and_lastname() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+       // throw new PendingException();
+    }
+
     
     
 
