@@ -1,6 +1,6 @@
  Feature: login functionality of application
  
- @Automated
+ 
  Scenario:Verfication of login button
  Given Open the chrome and launch the application
  When application opened
@@ -11,7 +11,7 @@
  Then Verify Username text
  Then VerifyTextPresent
  Then selectframe
- #Then clickView
+ Then clickView
  Then exitframe
  Then PIM Main menu link
  Then selectingframe
